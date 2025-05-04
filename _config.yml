@@ -23,25 +23,25 @@ description: Click on the links to explore!
 navbar-links:
   - title: Home
     href:  /
-  - title: Academic
-    subcategories:
-    - title: Math
-      href: /math/
-    - title: Notes
-      href:  /notes/
-  - title: Tutorials
-    href: /tuts/
-    subcategories:
-    - title: MA 105
-      href:  /tuts/ma-105/
-    - title: MA 106
-      href:  /tuts/ma-106/
-    - title: MA 108
-      href:  /tuts/ma-108/
-    - title: MA 109
-      href:  /tuts/ma-109/
-    - title: MA 205
-      href: /tuts/ma-205/
+  # - title: Academic
+  #   subcategories:
+  #   - title: Math
+  #     href: /math/
+  #   - title: Notes
+  #     href:  /notes/
+  # - title: Tutorials
+  #   href: /tuts/
+  #   subcategories:
+  #   - title: MA 105
+  #     href:  /tuts/ma-105/
+  #   - title: MA 106
+  #     href:  /tuts/ma-106/
+  #   - title: MA 108
+  #     href:  /tuts/ma-108/
+  #   - title: MA 109
+  #     href:  /tuts/ma-109/
+  #   - title: MA 205
+  #     href: /tuts/ma-205/
   - title: More
     subcategories:
     - title: Courses
@@ -128,7 +128,7 @@ social-network-links:
   rss: true
   email: "yuxuanlow02@gmail.com"
   # facebook: aryaman.maithani
-  github: bouncycrab
+  github: "https://github.com/bouncycrab"
 #  stackexchange: ""
 #  twitter: daattali
 #  reddit: yourname
