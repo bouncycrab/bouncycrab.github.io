@@ -5,7 +5,6 @@ subtitle: Low Yu Xuan
 image: img/about.jpg
 ---
 
-### [CV](/files/CV.pdf)
 
 Hello! My name is Low Yu Xuan (刘宇轩).  
 I am currently a Year 3 Mathematics(2nd Major Computer Sciences) student at the [Department of Mathematics, National University of Singapore](https://www.math.nus.edu.sg/).  
@@ -27,11 +26,9 @@ As this is incomplete, some of his stuff is still here.
 
 I also enjoy solving problems on [Project Euler](https://projecteuler.net/).
 
-<a href="https://projecteuler.net/"><img src="https://projecteuler.net/profile/skandalio.png" width="208" height="58" alt="flair for Aryaman Maithani at Project Euler, A website dedicated to the fascinating world of mathematics and programming." title="Project Euler, A website dedicated to the fascinating world of mathematics and programming."></a>
-
 ### Contact
 
-* [aryamanmaithani@gmail.com](mailto:aryamanmaithani@gmail.com)
+* [yuxuanlow02@gmail.com](mailto:yuxuanlow02@gmail.com)
 
 
 ### Picture credits
