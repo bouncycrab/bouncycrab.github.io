@@ -2,32 +2,36 @@
 layout: page
 title: Home
 subtitle: My Personal Website
-image: /img/avatar-icon.png
-light-image: /img/avatar-icon-light.png
+image: /img/about.jpg
+light-image: /img/about.jpg
 ---
 
-Hello, you have reached [my](/aboutme) personal website.  
-Not sure if i would regularly update this, but I will try to keep it up to date.
+“The other thing that’s a big danger for CS students is spending too much time on stuff that doesn’t matter. Like writing a website for yourself. That doesn’t count. You have to work on real problems.”
+— Paul Graham, from a talk at Stanford (2006)
+
+"You should also not trust everything you read on the internet."
+— Me, from a website I made
+
+# Welcome to my website!
 
 If you know me personally, you would know that I am Mathematics shitposter and, to a lesser extent, a Computer Science nerd too.
-I hope that this website will be a good place to share my thoughts and ideas, as well as some of the things I have been working on.
-If you are a math nerd as well, you might find some of the things I have been working on interesting.
-If you are a recruiter, you might find my [CV](/files/CV/cv_single.pdf) interesting.
-If you are not a math nerd, you can refer to the "non math stuff" section below.
+* I hope that this website will be a good place to share my thoughts and ideas, as well as some of the things I have been working on.
+* If you are a math nerd as well, you might find some of the things I have been working on interesting.
+<!-- If you are a recruiter, you might find my [CV](/files/CV/cv_single.pdf) interesting. -->
+* If you are not a math nerd, you can refer to the "non math stuff" section below.
 <!-- If you have something to tell and wish to do so anonymously, you may drop a message [here](www.google.com). [Here](/responses) are my responses to (some of) your messages. -->
 
 
 # Links
-## Math stuff
-* [Math stuff](/blog) - Writing about math
+## Math(and by extension, computer science) stuff
+* [Math stuff](/blog) - random stuff
 
 ## Non-Math stuff
 <!-- * [Notes](/notes) - these are non-math notes
 * [Tutorials](/tuts), pages I made while TA'ing for courses at NUS -->
-* [NUS_Resources](/nus-resources) random stuff i found helpful while studying at NUS
+* [NUS_Resources](/nus-resources) random stuff i found helpful while studying at NUS + stuff for my TA
 
 ## Tutorials, of sorts
-* [(Quick) intro to LaTeX](/latex)
 * [Setting up math keyboard shortcuts (Android)](/shortcuts)
 
 ---

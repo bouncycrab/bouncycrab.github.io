@@ -1,8 +1,8 @@
 # --- General options --- #
 # bundle exec jekyll serve
 # Name of website
-title: Aryaman
-tagline: I wasn't
+title: Yu Xuan
+tagline: 
 
 # Short description of your site
 description: Click on the links to explore!
@@ -118,7 +118,7 @@ light-subtitle-col: "#4B4B4B"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Aryaman Maithani
+  name: Low Yu Xuan
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -126,10 +126,10 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "aryamanmaithani@gmail.com"
+  email: "yuxuanlow02@gmail.com"
   # facebook: aryaman.maithani
-  github: aryamanmaithani
-  stackexchange: "427810/aryaman-maithani?tab=profile"
+  github: bouncycrab
+#  stackexchange: ""
 #  twitter: daattali
 #  reddit: yourname
 #  linkedin: aryaman-maithani
@@ -176,7 +176,7 @@ share-links-active:
 # --- Comments --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "aryamanmaithani"
+disqus: "bouncycrab"
 
 # If you want to use JustComments fill with the API Key
 #just-comments: "ABCD-EFGH-IJKL"
