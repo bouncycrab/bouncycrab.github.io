@@ -8,14 +8,14 @@ Here is a list of some questions from [Math StackExchange](https://math.stackexc
 
 # My answers
 
-### galois-theory
+<!-- ### galois-theory
 
 0. [If $$K/\mathbb{Q}$$ is finite, then there exists a finite extension $$E/K$$ which is not normal.](https://math.stackexchange.com/a/4184243/427810){:target="_blank"}
 
 0. [An elementary way of counting the number of generators of $$\mathbb{F}_{q^{n}}$$ over $$\mathbb{F}_{q}$$.](https://math.stackexchange.com/a/4087728/427810){:target="_blank"}  
 Interestingly, a similar question came up in a test I gave few months later. I started doing it in a more complicated way (similar to my other answer on that question) but then I remembered I had done this special case in an easier way on this post.
 
-0. [Computing the Galois group of $$\mathbb{Q}(\sqrt[6]{-3})/\mathbb{Q}$$.](https://math.stackexchange.com/a/4169160/427810){:target="_blank"}
+0. [Computing the Galois group of $$\mathbb{Q}(\sqrt[6]{-3})/\mathbb{Q}$$.](https://math.stackexchange.com/a/4169160/427810){:target="_blank"} -->
 
 ### group-theory
 

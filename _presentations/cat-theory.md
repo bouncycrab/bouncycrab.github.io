@@ -1,9 +1,9 @@
 ---
 layout: post
 blog-category: presentation
-title: Category Theory
-abstract: Category theory notes.
-tags: [category-theory]
+title: Mathematics of Post-Quantum Cryptography
+abstract: PQC theory notes.
+tags: [PQC]
 date: 2019-03-28
 ---
 #### [PDF](https://github.com/aryamanmaithani/presentations/blob/master/category-theory/cat-theory.pdf) 
