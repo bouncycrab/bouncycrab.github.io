@@ -63,7 +63,7 @@ p {
   margin: 30px 0px;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: "PT Serif", Helvetica, Arial, sans-serif;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
   font-weight: 800;
 }
 a {
@@ -101,7 +101,7 @@ hr.small {
 }
 
 .main-explain-area {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
   /*padding: 15px inherit;*/
 }
 
@@ -175,7 +175,7 @@ footer .list-inline {
   padding: 0;
 }
 footer .copyright {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
   text-align: center;
   margin-bottom: 0;
 }
@@ -241,7 +241,7 @@ footer .theme-by {
   margin: 0 0 10px;
 }
 .post-preview .post-entry {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
 }
 .post-entry-container {
   display: inline-block;
@@ -293,7 +293,7 @@ footer .theme-by {
 /* --- Tags --- */
 
 .blog-tags {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
   color: #999;
   font-size: 15px;
   margin-bottom: 30px;
@@ -397,7 +397,7 @@ footer .theme-by {
   font-size: 27px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
   font-weight: 300;
   margin: 10px 0 0;
 }
@@ -422,7 +422,7 @@ footer .theme-by {
   /*padding: 5px 10px;*/
   font-size: 11px;
   color: #EEE;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
   right: 0;
   bottom: 0;
   display: none;
@@ -506,7 +506,7 @@ footer .theme-by {
 /* --- Pager --- */
 
 .pager li a {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -681,7 +681,7 @@ td.gutter {
 }
 
 #full-tags-list {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
 }
 
 #full-tags-list .tag-entry {
@@ -708,7 +708,7 @@ td.gutter {
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
   border-radius: 12px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -725,7 +725,7 @@ td.gutter {
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
   border-radius: 12px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -840,7 +840,7 @@ A.blog-button:active {text-decoration: none; color: white;}
   visibility: hidden;
   overflow-x: hidden;
   overflow-y: hidden;
-  font-family: "PT Serif", Helvetica, Arial, sans-serif;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
   font-size: 1.8rem;
   color: rgba(255,255,255,.6);
   background-color: #202020;
@@ -965,220 +965,220 @@ a.sidebar-nav-item:focus {
           user-select: none;
 }
 
-/* Style the `label` that we use to target the `.sidebar-checkbox` */
+/* Style the `label` that we use to target the `.sidebar-
 .sidebar-toggle {
-  position: absolute;
-  top:  .8rem;
-  left: 2.5rem;
-  display: block;
-  padding: .28rem .75rem;
-  color: white;
-  background-color: var(--background-color);
-  border-radius: .28rem;
-  cursor: pointer;
-}
-
-.sidebar-toggle:before {
-  display: inline-block;
-  width: 2rem;
-  height: 1.5rem;
-  content: "";
-  background-image: -webkit-linear-gradient(to bottom, var(--sidebar-line-color), var(--sidebar-line-color) 20%, var(--background-color) 20%, var(--background-color) 40%, var(--sidebar-line-color) 40%, var(--sidebar-line-color) 60%, var(--background-color) 60%, var(--background-color) 80%, var(--sidebar-line-color) 80%, var(--sidebar-line-color) 100%);
-  background-image:    -moz-linear-gradient(to bottom, var(--sidebar-line-color), var(--sidebar-line-color) 20%, var(--background-color) 20%, var(--background-color) 40%, var(--sidebar-line-color) 40%, var(--sidebar-line-color) 60%, var(--background-color) 60%, var(--background-color) 80%, var(--sidebar-line-color) 80%, var(--sidebar-line-color) 100%);
-  background-image:     -ms-linear-gradient(to bottom, var(--sidebar-line-color), var(--sidebar-line-color) 20%, var(--background-color) 20%, var(--background-color) 40%, var(--sidebar-line-color) 40%, var(--sidebar-line-color) 60%, var(--background-color) 60%, var(--background-color) 80%, var(--sidebar-line-color) 80%, var(--sidebar-line-color) 100%);
-  background-image:         linear-gradient(to bottom, var(--sidebar-line-color), var(--sidebar-line-color) 20%, var(--background-color) 20%, var(--background-color) 40%, var(--sidebar-line-color) 40%, var(--sidebar-line-color) 60%, var(--background-color) 60%, var(--background-color) 80%, var(--sidebar-line-color) 80%, var(--sidebar-line-color) 100%);
-}
-
-.sidebar-toggle:active,
-#sidebar-checkbox:focus ~ .sidebar-toggle,
-#sidebar-checkbox:checked ~ .sidebar-toggle {
-  color: #000;
-  background-color: #eeeeee;
-}
-
-.sidebar-toggle:active:before,
-#sidebar-checkbox:focus ~ .sidebar-toggle:before,
-#sidebar-checkbox:checked ~ .sidebar-toggle:before {
-  /*background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
-  /*background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
-  /*background-image:     -ms-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
-  /*background-image:         linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
-  background-image: -webkit-linear-gradient(to bottom, #555, #555 20%, #eee 20%, #eee 40%, #555 40%, #555 60%, #eee 60%, #eee 80%, #555 80%, #555 100%);
-  background-image:    -moz-linear-gradient(to bottom, #555, #555 20%, #eee 20%, #eee 40%, #555 40%, #555 60%, #eee 60%, #eee 80%, #555 80%, #555 100%);
-  background-image:     -ms-linear-gradient(to bottom, #555, #555 20%, #eee 20%, #eee 40%, #555 40%, #555 60%, #eee 60%, #eee 80%, #555 80%, #555 100%);
-  background-image:         linear-gradient(to bottom, #555, #555 20%, #eee 20%, #eee 40%, #555 40%, #555 60%, #eee 60%, #eee 80%, #555 80%, #555 100%);
-}
-
-@media (min-width: 30.1em) {
-  .sidebar-toggle {
-    position: fixed;
-  }
-}
-
-@media print {
-  .sidebar-toggle {
-    display: none;
-  }
-}
-
-/*
- * Wrapper
- *
- * The wrapper is used to position site content when the sidebar is toggled. We
- * use an outter wrap to position the sidebar without interferring with the
- * regular page content.
- */
-
-.wrap {
-  position: relative;
-  width: 100%;
-}
-
-/* Slide effect
- *
- * Handle the sliding effects of the sidebar and content in one spot, seperate
- * from the default styles.
- *
- * As an a heads up, we don't use `transform: translate3d()` here because when
- * mixed with `position: fixed;` for the sidebar toggle, it creates a new
- * containing block. Put simply, the fixed sidebar toggle behaves like
- * `position: absolute;` when transformed.
- *
- * Read more about it at http://meyerweb.com/eric/thoughts/2011/09/12/.
- */
-
-.wrap,
-.sidebar,
-.sidebar-toggle {
-  -webkit-backface-visibility: hidden;
-      -ms-backface-visibility: hidden;
-          backface-visibility: hidden;
-}
-.wrap,
-.sidebar-toggle {
-  -webkit-transition: -webkit-transform .3s ease-in-out;
-          transition: transform .3s ease-in-out;
-}
-
-#sidebar-checkbox:checked + .sidebar {
-  z-index: 10;
-  visibility: visible;
-}
-#sidebar-checkbox:checked ~ .sidebar,
-#sidebar-checkbox:checked ~ .wrap,
-#sidebar-checkbox:checked ~ .sidebar-toggle {
-  -webkit-transform: translateX(28rem);
-      -ms-transform: translateX(28rem);
-          transform: translateX(28rem);
-}
-
-
-/*-------------
-Flyout
--------------*/
-.sidebar-nav .nav-flyout {
-  position: absolute;
-  background-color: #080D11;
-  z-index: 9;
-  left: 1.7em;
-  right: 0em;
-  top: 0;
-  height: 100vh;
-  -webkit-transform: translateX(100%);
-  -moz-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  -o-transform: translateX(100%);
-  transform: translateX(100%);
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-.sidebar-nav .nav-flyout a:hover {
-  background-color: rgba(255, 255, 255, 0.05);
-}
-.sidebar-nav ul > li:hover .nav-flyout {
-  -webkit-transform: translateX(0);
-  -moz-transform: translateX(0);
-  -ms-transform: translateX(0);
-  -o-transform: translateX(0);
-  transform: translateX(0);
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-
-.sidebar .avatar {
-  padding: 0em 0em;
-  text-align: center;
-}
-.sidebar .avatar img {
-  width: 100px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 4px solid #ffea92;
-  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2);
-}
-
-/* Theme toggler */
-/*slider switch css */
-.theme-switch-wrapper {
-  display: flex;
-  align-items: center;
-  float: right;
-  margin-top: -65px;
-  
-  em {
-    margin-left: 10px;
-    font-size: 1rem;
-  }
-}
-.theme-switch {
-  display: inline-block;
-  height: 26px;
-  position: relative;
-  width: 54px;
-}
-
-.theme-switch input {
-  display:none;
-}
-
-.slider {
-  bottom: 0;
-  cursor: pointer;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  transition: .4s;
-  background-color: {{ site.light-page-col }};
-}
-
-.slider:before {
-  bottom: 3px;
-  content: "";
-  height: 20px;
-  left: 4px;
-  position: absolute;
-  transition: .4s;
-  width: 20px;
-  background-color: {{ site.page-col }};
-}
-
-input:checked + .slider {
-  background-color: {{ site.page-col }};
-}
-
-input:checked + .slider:before {
-  transform: translateX(26px);
-  background-color: {{ site.light-page-col }};
-}
-
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
+   position: absolute;
+   top:  .8rem;
+   left: 2.5rem;
+   display: block;
+   padding: .28rem .75rem;
+   color: white;
+   background-color: var(--background-color);
+   border-radius: .28rem;
+   cursor: pointer;
+ }
+ 
+ .sidebar-toggle:before {
+   display: inline-block;
+   width: 2rem;
+   height: 1.5rem;
+   content: "";
+   background-image: -webkit-linear-gradient(to bottom, var(--sidebar-line-color), var(--sidebar-line-color) 20%, var(--background-color) 20%, var(--background-color) 40%, var(--sidebar-line-color) 40%, var(--sidebar-line-color) 60%, var(--background-color) 60%, var(--background-color) 80%, var(--sidebar-line-color) 80%, var(--sidebar-line-color) 100%);
+   background-image:    -moz-linear-gradient(to bottom, var(--sidebar-line-color), var(--sidebar-line-color) 20%, var(--background-color) 20%, var(--background-color) 40%, var(--sidebar-line-color) 40%, var(--sidebar-line-color) 60%, var(--background-color) 60%, var(--background-color) 80%, var(--sidebar-line-color) 80%, var(--sidebar-line-color) 100%);
+   background-image:     -ms-linear-gradient(to bottom, var(--sidebar-line-color), var(--sidebar-line-color) 20%, var(--background-color) 20%, var(--background-color) 40%, var(--sidebar-line-color) 40%, var(--sidebar-line-color) 60%, var(--background-color) 60%, var(--background-color) 80%, var(--sidebar-line-color) 80%, var(--sidebar-line-color) 100%);
+   background-image:         linear-gradient(to bottom, var(--sidebar-line-color), var(--sidebar-line-color) 20%, var(--background-color) 20%, var(--background-color) 40%, var(--sidebar-line-color) 40%, var(--sidebar-line-color) 60%, var(--background-color) 60%, var(--background-color) 80%, var(--sidebar-line-color) 80%, var(--sidebar-line-color) 100%);
+ }
+ 
+ .sidebar-toggle:active,
+ #sidebar-checkbox:focus ~ .sidebar-toggle,
+ #sidebar-checkbox:checked ~ .sidebar-toggle {
+   color: #000;
+   background-color: #eeeeee;
+ }
+ 
+ .sidebar-toggle:active:before,
+ #sidebar-checkbox:focus ~ .sidebar-toggle:before,
+ #sidebar-checkbox:checked ~ .sidebar-toggle:before {
+   /*background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
+   /*background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
+   /*background-image:     -ms-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
+   /*background-image:         linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);*/
+   background-image: -webkit-linear-gradient(to bottom, #555, #555 20%, #eee 20%, #eee 40%, #555 40%, #555 60%, #eee 60%, #eee 80%, #555 80%, #555 100%);
+   background-image:    -moz-linear-gradient(to bottom, #555, #555 20%, #eee 20%, #eee 40%, #555 40%, #555 60%, #eee 60%, #eee 80%, #555 80%, #555 100%);
+   background-image:     -ms-linear-gradient(to bottom, #555, #555 20%, #eee 20%, #eee 40%, #555 40%, #555 60%, #eee 60%, #eee 80%, #555 80%, #555 100%);
+   background-image:         linear-gradient(to bottom, #555, #555 20%, #eee 20%, #eee 40%, #555 40%, #555 60%, #eee 60%, #eee 80%, #555 80%, #555 100%);
+ }
+ 
+ @media (min-width: 30.1em) {
+   .sidebar-toggle {
+     position: fixed;
+   }
+ }
+ 
+ @media print {
+   .sidebar-toggle {
+     display: none;
+   }
+ }
+ 
+ /*
+  * Wrapper
+  *
+  * The wrapper is used to position site content when the sidebar is toggled. We
+  * use an outter wrap to position the sidebar without interferring with the
+  * regular page content.
+  */
+ 
+ .wrap {
+   position: relative;
+   width: 100%;
+ }
+ 
+ /* Slide effect
+  *
+  * Handle the sliding effects of the sidebar and content in one spot, seperate
+  * from the default styles.
+  *
+  * As an a heads up, we don't use `transform: translate3d()` here because when
+  * mixed with `position: fixed;` for the sidebar toggle, it creates a new
+  * containing block. Put simply, the fixed sidebar toggle behaves like
+  * `position: absolute;` when transformed.
+  *
+  * Read more about it at http://meyerweb.com/eric/thoughts/2011/09/12/.
+  */
+ 
+ .wrap,
+ .sidebar,
+ .sidebar-toggle {
+   -webkit-backface-visibility: hidden;
+       -ms-backface-visibility: hidden;
+           backface-visibility: hidden;
+ }
+ .wrap,
+ .sidebar-toggle {
+   -webkit-transition: -webkit-transform .3s ease-in-out;
+           transition: transform .3s ease-in-out;
+ }
+ 
+ #sidebar-checkbox:checked + .sidebar {
+   z-index: 10;
+   visibility: visible;
+ }
+ #sidebar-checkbox:checked ~ .sidebar,
+ #sidebar-checkbox:checked ~ .wrap,
+ #sidebar-checkbox:checked ~ .sidebar-toggle {
+   -webkit-transform: translateX(28rem);
+       -ms-transform: translateX(28rem);
+           transform: translateX(28rem);
+ }
+ 
+ 
+ /*-------------
+ Flyout
+ -------------*/
+ .sidebar-nav .nav-flyout {
+   position: absolute;
+   background-color: #080D11;
+   z-index: 9;
+   left: 1.7em;
+   right: 0em;
+   top: 0;
+   height: 100vh;
+   -webkit-transform: translateX(100%);
+   -moz-transform: translateX(100%);
+   -ms-transform: translateX(100%);
+   -o-transform: translateX(100%);
+   transform: translateX(100%);
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+ }
+ .sidebar-nav .nav-flyout a:hover {
+   background-color: rgba(255, 255, 255, 0.05);
+ }
+ .sidebar-nav ul > li:hover .nav-flyout {
+   -webkit-transform: translateX(0);
+   -moz-transform: translateX(0);
+   -ms-transform: translateX(0);
+   -o-transform: translateX(0);
+   transform: translateX(0);
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+ }
+ 
+ 
+ .sidebar .avatar {
+   padding: 0em 0em;
+   text-align: center;
+ }
+ .sidebar .avatar img {
+   width: 100px;
+   border-radius: 50%;
+   overflow: hidden;
+   border: 4px solid #ffea92;
+   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2);
+ }
+ 
+ /* Theme toggler */
+ /*slider switch css */
+ .theme-switch-wrapper {
+   display: flex;
+   align-items: center;
+   float: right;
+   margin-top: -65px;
+   
+   em {
+     margin-left: 10px;
+     font-size: 1rem;
+   }
+ }
+ .theme-switch {
+   display: inline-block;
+   height: 26px;
+   position: relative;
+   width: 54px;
+ }
+ 
+ .theme-switch input {
+   display:none;
+ }
+ 
+ .slider {
+   bottom: 0;
+   cursor: pointer;
+   left: 0;
+   position: absolute;
+   right: 0;
+   top: 0;
+   transition: .4s;
+   background-color: {{ site.light-page-col }};
+ }
+ 
+ .slider:before {
+   bottom: 3px;
+   content: "";
+   height: 20px;
+   left: 4px;
+   position: absolute;
+   transition: .4s;
+   width: 20px;
+   background-color: {{ site.page-col }};
+ }
+ 
+ input:checked + .slider {
+   background-color: {{ site.page-col }};
+ }
+ 
+ input:checked + .slider:before {
+   transform: translateX(26px);
+   background-color: {{ site.light-page-col }};
+ }
+ 
+ .slider.round {
+   border-radius: 34px;
+ }
+ 
+ .slider.round:before {
+   border-radius: 50%;
+ }
