@@ -63,7 +63,7 @@ p {
   margin: 30px 0px;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "PT Serif", Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
 a {
@@ -840,7 +840,7 @@ A.blog-button:active {text-decoration: none; color: white;}
   visibility: hidden;
   overflow-x: hidden;
   overflow-y: hidden;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "PT Serif", Helvetica, Arial, sans-serif;
   font-size: 1.8rem;
   color: rgba(255,255,255,.6);
   background-color: #202020;
