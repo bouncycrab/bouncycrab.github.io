@@ -31,4 +31,4 @@ Nobody ask but [here](stackex) are some of my favourite answers on StackExchange
 
 
 ### Picture credits
-The picture displayed on this page was taken by [Advay Dilip Pakhale](https://www.linkedin.com/in/advay-pakhale-30934ab1/) on his trusty phone.
+The picture displayed on this page was taken by [Advay Dilip Pakhale](https://i.ytimg.com/vi/3h3GqiRb-24/sddefault.jpg) on his trusty phone.
