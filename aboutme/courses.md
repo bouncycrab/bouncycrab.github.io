@@ -7,7 +7,7 @@ light-image: /img/iitb-light.png
 ---
 
 ### Department of Mathematics
-I have obtained minimally A- for all the core modules (Math/CS) with the exception of MA3236. (I got a B+ for that one).
+Coursework I have taken
 
 #### Year 2 Semester 2
 * [MA4264 - Game Theory](https://www.math.nus.edu.sg/course/ma4264/)

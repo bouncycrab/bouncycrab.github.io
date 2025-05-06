@@ -317,6 +317,6 @@ collections:
   presentations: 
     output: true
 
-anon-form: "https://forms.gle/faFYkmjNnevF5nBK9"
+anon-form: 
 plugins:
   - jekyll-target-blank

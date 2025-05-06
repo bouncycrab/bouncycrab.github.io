@@ -12,7 +12,7 @@ light-image: /img/iitb-light.png
     - [TutReg - Decent planner](https://tutreg.com/)
     - [NUS Reddit - To feel solace in suffering](https://www.reddit.com/r/nus/)
     - [NUS Libraries - not to find books but to find exam papers](https://nus.edu.sg/nuslibraries)
-    - [Math + CS materials I scraped. Contains stuff not in Holy Grail too](https://drive.google.com/drive/folders/1gFkaLqnWcz6QicepZ5hD8DfHkb4Ww_em?usp=sharing)
+    - [Math + CS materials scraped with a help of a friend. Contains stuff not in Holy Grail too](https://drive.google.com/drive/folders/1gFkaLqnWcz6QicepZ5hD8DfHkb4Ww_em?usp=sharing)
 
 
 * Mathematics Courses
