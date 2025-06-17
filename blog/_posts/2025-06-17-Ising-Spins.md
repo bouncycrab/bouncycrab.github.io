@@ -18,12 +18,12 @@ Ising spins are a mathematical model used in statistical mechanics to represent 
 
 In the Ising model, each spin can take one of two values, typically represented as +1 (up) or -1 (down). The spins are arranged on a lattice, and the interactions between neighboring spins determine the overall energy of the system. The Hamiltonian of the Ising model is given by:
 
-\[
+$$
 H = -J \sum_{<i,j>} S_i S_j - h \sum_i S_i
-\]
+$$
 
 where:
-- \( S_i \) is the spin at site \( i \) (either +1 or -1),
+- $$\( S_i \)$$ is the spin at site \( i \) (either +1 or -1),
 - \( J \) is the coupling constant that determines the strength of interaction between neighboring spins,
 - \( h \) is the external magnetic field,
 - the first sum runs over all pairs of neighboring spins, and
