@@ -16,17 +16,21 @@ light-image: /img/about.jpg
 
 If you know me personally, you would know that I am Mathematics shitposter and, to a lesser extent, a Computer Science nerd too.
 * I hope that this website will be a good place to share my thoughts and ideas, as well as some of the things I have been working on.
-* If you are a math nerd as well, you might find some of the things I have been working on interesting.
+* I mainly blog random (nerdy usually) stuff [Here](/blog).
 <!-- If you are a recruiter, you might find my [CV](/files/CV/cv_single.pdf) interesting. -->
-* If you are not a math nerd, you can refer to the "non math stuff" section below.
+* I also have a collection of favourite stackexchange posts [Here](/aboutme/stackex.md)
+* For more information about me, click [Here](/aboutme).
+
+* I do have a [GitHub](https://github.com/bouncycrab?tab=repositories) which contains some of my projects.
+They include a CodeReviewClassifier, a Mahjong App that trains you in mahjong, and a network stack allowing for TCP connections to be done over paper planes. (The last one was made as a troll project during Hack and Roll 2024, a hackathon organised by NUS Hackers.)
 <!-- If you have something to tell and wish to do so anonymously, you may drop a message [here](www.google.com). [Here](/responses) are my responses to (some of) your messages. -->
 
 
 # Links
-## Math(and by extension, computer science) stuff
-* [Math stuff](/blog) - random stuff
+## Blog
+* [Random stuff](/blog) - nerd stuff?
 
-## Non-Math stuff
+## Misc stuff
 <!-- * [Notes](/notes) - these are non-math notes
 * [Tutorials](/tuts), pages I made while TA'ing for courses at NUS -->
 * [NUS_Resources](/nus-resources) random stuff i found helpful while studying at NUS + stuff for my TA

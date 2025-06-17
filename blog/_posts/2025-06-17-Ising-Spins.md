@@ -23,9 +23,9 @@ H = -J \sum_{<i,j>} S_i S_j - h \sum_i S_i
 $$
 
 where:
-- $$\( S_i \)$$ is the spin at site \( i \) (either +1 or -1),
-- \( J \) is the coupling constant that determines the strength of interaction between neighboring spins,
-- \( h \) is the external magnetic field,
+- $$ S_i $$ is the spin at site $$ i $$ (either +1 or -1),
+- $$ J $$ is the coupling constant that determines the strength of interaction between neighboring spins,
+- $$ h $$ is the external magnetic field,
 - the first sum runs over all pairs of neighboring spins, and
 - the second sum runs over all spins in the system.
 The Ising model is used to study phase transitions, magnetism, and critical phenomena in statistical physics. It has applications in various fields, including condensed matter physics, materials science, and even in optimization problems.
@@ -42,15 +42,15 @@ When you have a lot of magnets, they can either align with each other (all point
 Another analogy is to think about a classroom of students. Each student can either be happy (up) or sad (down). The Ising model helps us understand how the mood of the classroom changes based on how students interact with each other and external factors like a how much I like my friend or how much the teacher is scolding us.
 
 ## Okay... so how can this solve problems?
-An Ising model is usually described by a Hamiltonian(Think of a matrix). So lets say in order to model some NP-hard problem, we have to consider \[2^n\] possible states, where n is the number of variables in the problem. This means that in order to solve this classically, we would have to consider a dimension 2^n matrix, which is infeasible for large n.
+An Ising model is usually described by a Hamiltonian(Think of a matrix). So lets say in order to model some NP-hard problem, we have to consider $$2^n$$ possible states, where n is the number of variables in the problem. This means that in order to solve this classically, we would have to consider a dimension 2^n matrix, which is infeasible for large n.
 
-However, if we can describe such a matrix as an Ising model, we can use quantum computers to solve it. By formulating the \[2^n\] matrix as a physical system of Ising spins, and if we let the solution of the problem correspond to the lowest energy state of the system, we can use quantum annealing to find this lowest energy state. 
+However, if we can describe such a matrix as an Ising model, we can use quantum computers to solve it. By formulating the $$2^n$$ matrix as a physical system of Ising spins, and if we let the solution of the problem correspond to the lowest energy state of the system, we can use quantum annealing to find this lowest energy state. 
 
 For exact Ising formulations of NP-hard problems you can refer to [this paper](https://arxiv.org/pdf/1302.5843).
 
 ## Conclusion
 Main takeaway from this blogpost:
-Suppose you have a problem that is too much to solve classically (think of a 2^n matrix), you can try to convert it into an Ising spin model using qubits. If you can do that, you can use quantum annealing to find the solution.
+Suppose you have a problem that is too much to solve classically (think of a $$2^n$$ matrix), you can try to convert it into an Ising spin model using qubits. If you can do that, you can use quantum annealing to find the solution.
 
 Any QUBO (Quadratic Unconstrained Binary Optimization) problem is essentially can be converted into an Ising spin model, and thus can be solved using quantum annealing. QUBO and Ising models simply differ by a change of basis so it is a bijective (might be using this term loosely) model.
 
