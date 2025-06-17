@@ -7,9 +7,7 @@ image: img/about.jpg
 
 
 Hello! My name is Low Yu Xuan (刘宇轩).  
-I am currently a Year 3 Mathematics(2nd Major Computer Sciences) student at the [Department of Mathematics, National University of Singapore](https://www.math.nus.edu.sg/).  
-
-
+I am currently a Year 3 Mathematics and Computer Science student at the [Department of Mathematics, National University of Singapore](https://www.math.nus.edu.sg/).  
 
 
 
@@ -25,9 +23,10 @@ I am currently a Year 3 Mathematics(2nd Major Computer Sciences) student at the 
 
 Nobody ask but [here](stackex) are some of my favourite answers on StackExchange.
 
-### Contact
+### Contact (Feel free to reach out I enjoy nerding out/casual chats)
 
 * [yuxuanlow02@gmail.com](mailto:yuxuanlow02@gmail.com)
+* Telegram [@bouncycrab](https://t.me/bouncycrab)
 
 
 ### Picture credits

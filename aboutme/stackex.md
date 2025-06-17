@@ -6,6 +6,7 @@ subtitle: A selection
 
 Here is a list of some questions from [Math StackExchange](https://math.stackexchange.com){:target="_blank"}. 
 They are either here because the technique used was elegant or the result itself was elegant.
+Thanks Shao Qian and Advay for most of these questions.
 
 <!-- ### galois-theory
 
