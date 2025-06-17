@@ -32,6 +32,7 @@ Interestingly, a similar question came up in a test I gave few months later. I s
 
 0. [Lipschitz continuity vs Uniform continuity](https://math.stackexchange.com/questions/3518786/what-is-the-difference-between-lipschitz-and-general-uniform-continuity){:target="_blank"}
 
+0. [Does the exponential function have a compositional square root?](https://mathoverflow.net/questions/12081/does-the-exponential-function-have-a-compositional-square-root)
 
 ### number-theory
 
