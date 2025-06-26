@@ -1,7 +1,7 @@
 ---
 layout: post
 blog-category: blog
-title: Novel Probabilistic Qubit Encodings?
+title: Novel(?) Probabilistic Qubit Encodings?
 author: Yu Xuan
 image: /img/qubit.png
 ---
@@ -28,7 +28,7 @@ Now this idea, as compared to the naive binary encoding idea, results in a use o
 
 However, I felt that this encoding is too strict as the space complexity of the encoding goes from a O(lg(n)) to O(n) in the number of bits used to encode the integer.
 
-So, instead of penalizing each $$x_i$$ individually, one could penalize a constant number of $$x_i$$'s at a time.
+So, instead of penalizing each $$x_i$$ individually, one could penalize a constant number of $$x_i$$'s at a time. (Actually this idea was my supervisor's idea, I just thought it was cool and wanted to write it down here.)
 
 # What does this mean?
 
@@ -45,14 +45,14 @@ Instead of introducing the penality inside the Hamiltonian, one could also alter
 ![Mixer Hamiltonian diagram](/img/mixer.png)
 The left diagram shows the original mixer Hamiltonian where suppose there exist some unique encoding of the zero vector (For example, take it to be |0000>). By construction, this mixer results in all the 'CNOT' (C-Rotate gates?) to NOT be applied to the zero state, so the zero state has its amplitude left unchanged since now the Mixer and Cost hamiltonians commute.
 
-The right diagram shows the modified mixer Hamiltonian where instead of checking \|0000>, we penalize \|0xxx> where x can be either 0 or 1. This results $$2^{n-1}$ $ states to have their amplitudes left unchanged, so the zero state is not the ground state anymore, alongside the states |0xxx>.
+The right diagram shows the modified mixer Hamiltonian where instead of checking \|0000>, we penalize \|0xxx> where x can be either 0 or 1. This results $$2^{n-1}$ $ states to have their amplitudes left unchanged, so the zero state is not the ground state anymore, alongside the states \|0xxx>.
 
 # Why is this useful?
-By leaving the amplitudes of $2^{n-1}$ states (instead of one state) unchanged, by the law of total probability, naively I had thought the probability of measuring the zero state would be higher than the original mixer Hamiltonian. Experimentally, I noticed no significant difference in the probability of measuring the zero state, so I guess this is not useful. D:. Lol.
+By leaving the amplitudes of $$2^{n-1}$$ states (instead of one state) unchanged, by the law of total probability, naively I had thought the probability of measuring the zero state would be higher than the original mixer Hamiltonian. Experimentally, I noticed no significant difference in the probability of measuring the zero state, so I guess this is not useful. D:. Lol.
 
 
 # Cool, what's next?
 Well, I thought that this would be a pretty cool idea to reduce the reliance on Qubits needed to solve any SVP instance albeit it makes the algorithm non deterministic / probablistic, but anyways I wrote it down here as a blog post.
-However, a month ago a [new paper](https://arxiv.org/pdf/2505.08386) was released that claims to solve SVP using projected sublattices instead. So the space complexity relies on some parameter $\beta$ instead of the rank of the lattice, which drastically reduces the space complexity of the problem since you can choose $\beta$.
+However, a month ago a [new paper](https://arxiv.org/pdf/2505.08386) was released that claims to solve SVP using projected sublattices instead. So the space complexity relies on some parameter $$\beta$$ instead of the rank of the lattice, which drastically reduces the space complexity of the problem since you can choose $$\beta$$.
 
-This uses the deep insertion LLL technique which is also known as the $\beta$-BKZ algorithm. I guess I will read more and write a blog post about it later.
+This uses the deep insertion LLL technique which is also known as the $$\beta$$-BKZ algorithm. I guess I will read more and write a blog post about it later.
