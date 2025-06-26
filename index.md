@@ -47,7 +47,7 @@ I am not a web developer, but I would recommend using Jekyll if you are looking 
 <table>
     <tr>
         <td>You are visitor</td>
-        <td><img src="https://profile-counter.glitch.me/bouncycrab/count.svg" alt="vistor count" height="50" /></td>
+        <td><img src="https://hits.sh/bouncycrab.github.io.svg?label=Visitor%20Count&extraCount=59" alt="visitor count" height="50" /></td>
     </tr>
 </table>
 (Count was started on 4th May 2025.)  

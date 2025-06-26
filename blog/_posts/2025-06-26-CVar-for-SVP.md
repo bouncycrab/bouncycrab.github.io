@@ -3,7 +3,7 @@ layout: post
 blog-category: blog
 title: CVar Optimization for SVP
 author: Yu Xuan
-image: /img/qubit.png
+image: /img/ccvar.png
 ---
 
 Hello, it seems that I am keeping up with blogging weekly, so here is another blog post.

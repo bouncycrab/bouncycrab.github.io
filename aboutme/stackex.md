@@ -4,9 +4,9 @@ title: Math StackExchange
 subtitle: A selection
 ---
 
-Here is a list of some questions from [Math StackExchange](https://math.stackexchange.com){:target="_blank"}. 
+Here is a list of some questions from [Math StackExchange](https://math.stackexchange.com){:target="_blank"} that i enjoyed while i was studying for math. 
 They are either here because the technique used was elegant or the result itself was elegant.
-Thanks Shao Qian and Advay for most of these questions.
+Thanks shao qian and advay for discussing some of these with me.
 
 <!-- ### galois-theory
 
