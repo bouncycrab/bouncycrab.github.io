@@ -10,10 +10,9 @@ Hello! My name is Low Yu Xuan (刘宇轩).
 I am currently a Year 3 Mathematics and Computer Science student at the [Department of Mathematics, National University of Singapore](https://www.math.nus.edu.sg/).  
 
 I enjoy learning about mathematics, computer science, and physics.
-I also enjoy playing games (League of Legends, Minecraft, etc.) and sports (Soccer, Table Tennis, and Badminton).
-I am also always down for Poker or Mahjong if you lack players.
+I also enjoy playing games (League of Legends, Minecraft, etc.) and sports (Soccer, Table Tennis, Badminton and Gambling).
 
-I am always looking for new things to learn and explore, so if you have any interesting projects or ideas, or just random cat stickers, feel free to reach out to me!
+I am always looking for new things to learn and explore, so if you have any interesting projects or ideas, feel free to reach out to me!
 
 
 

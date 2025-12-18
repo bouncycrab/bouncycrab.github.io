@@ -24,6 +24,7 @@ If you know me personally, you would know that I am Mathematics shitposter and, 
 * I do have a [GitHub](https://github.com/bouncycrab?tab=repositories) which contains some of my projects.
 They include a CodeReviewClassifier, a Mahjong App that trains you in mahjong, and a network stack allowing for TCP connections to be done over paper planes. (The last one was made as a troll project during Hack and Roll 2024, a hackathon organised by NUS Hackers.)
 <!-- If you have something to tell and wish to do so anonymously, you may drop a message [here](www.google.com). [Here](/responses) are my responses to (some of) your messages. -->
+This is a highly unorganised website that I randomly made up one fine afternoon, so please bear with the mess.
 
 
 # Links
@@ -44,11 +45,8 @@ This website was made using [Jekyll](https://jekyllrb.com/) and [Github Pages](h
 I am not a web developer, but I would recommend using Jekyll if you are looking to make a personal website.
 
 ## Visitor count
-<table>
-    <tr>
-        <td>You are visitor</td>
-        <td><img src="https://hits.sh/bouncycrab.github.io.svg?label=Visitor%20Count&extraCount=59" alt="visitor count" height="50" /></td>
-    </tr>
-</table>
+
+You are visitor ![Visitor Count](https://hits.sh/bouncycrab.github.io.svg?label=%20&extraCount=59)
+
 (Count was started on 4th May 2025.)  
-(This is most likely not a very good measure since it updates with every refresh but oh, well.)   
+(This is most likely not a very good measure since it updates with every refresh but oh, well im not a web dev.)

@@ -44,6 +44,8 @@ Interestingly, a similar question came up in a test I gave few months later. I s
 
 0. [Difference between Homomorphism and Linear Map](https://math.stackexchange.com/questions/29944/difference-between-linear-map-and-homomorphism){:target="_blank"} 
 
+0. [If A commutes with B, then f(A) commutes with B too. But the converse is not true.](https://math.stackexchange.com/questions/4048593/when-a-a-commute-with-eb-does-it-also-commute-b){:target="_blank"} 
+
 
 # Other questions
 
