@@ -1,57 +1,76 @@
 ---
 layout: post
 blog-category: blog
-title: Ising Spins and Quantum Computing
+title: Roleplaying as Crypto(graphy) Designers
 author: Yu Xuan
-image: /img/qc.jpg
+image: /img/lattice.png
 ---
 
-What exactly are Ising spin models and why must some problems be converted into them in order for quantum computers to solve them?
+Something that I don't enjoy about the study of cryptography is that most of the time, we are just consumers of cryptographic schemes. We read papers, understand the schemes, and maybe implement them using well-known libraries (e.g., OpenSSL, libsodium, etc.).
 
-I encountered this question while I was reading about Quantum Algorithms used to solve NP-hard problems. In this post, I will try to motivate the use of Ising spin models and how they are related to some NP-hard problems.
+But we rarely get to design our own schemes, or even think about how to design them.
 
-## What are Ising Spins?
+## Roleplaying as Crypto(graphy) Designers
+Anyone that has taken a cryptography course would know how a basic RSA scheme works. You pick two large primes $p$ and $q$, compute $n = p \times q$, pick an encryption exponent $e$, compute the decryption exponent $d$, and publish $(n, e)$ as the public key.
 
-Let's take a look at a more formal definition of Ising spins first --
+But have you ever wondered why we pick $e = 65537$ so often? (Ans: low Hamming weight + sufficiently large). What are the tradeoffs of picking a larger or smaller $e$?
 
-Ising spins are a mathematical model used in statistical mechanics to represent magnetic dipole moments of atomic spins. They are named after the physicist Ernst Ising, who introduced the model in his doctoral thesis in 1924.
+Well, today I'm not here to talk about RSA, but rather to talk about **Lattice-based cryptography**, and the inspirations and motivations behind the design of some of the schemes.
 
-In the Ising model, each spin can take one of two values, typically represented as +1 (up) or -1 (down). The spins are arranged on a lattice, and the interactions between neighboring spins determine the overall energy of the system. The Hamiltonian of the Ising model is given by:
+## Security Needs: What properties make certain objects good for crypto primitives?
 
-$$
-H = -J \sum_{<i,j>} S_i S_j - h \sum_i S_i
-$$
+* **Hash functions:**
+    * Compression function (maps larger input to smaller output).
+    * Collision resistance (hard to find $x_1, x_2$ such that $H(x_1) = H(x_2)$).
+* **Encrypt/Decrypt:**
+    * Asymmetry in hardness of computation.
+    * Existence and uniqueness (of private key).
+    * Ease of scalability.
 
-where:
-- $$ S_i $$ is the spin at site $$ i $$ (either +1 or -1),
-- $$ J $$ is the coupling constant that determines the strength of interaction between neighboring spins,
-- $$ h $$ is the external magnetic field,
-- the first sum runs over all pairs of neighboring spins, and
-- the second sum runs over all spins in the system.
-The Ising model is used to study phase transitions, magnetism, and critical phenomena in statistical physics. It has applications in various fields, including condensed matter physics, materials science, and even in optimization problems.
+## SIS (Shortest Integer Solution) 
 
-Okay... thats alot of words. But what does it mean?
+Introduced by Ajtai in 1996, the SIS problem is a foundational problem in lattice-based cryptography.
 
-## What does it mean?
-I am going to ignore all the physics jargon and try to explain it in a more intuitive way. If you prefer a more formal definition, you can refer to the [this YouTube playlist](https://www.youtube.com/playlist?list=PLotxEOxVaaoKRXdDN-7lI3Y88PaHqyOZL).
+[Image of a lattice in cryptography with vectors illustrating the Shortest Integer Solution problem]
 
-Imagine you have a bunch of magnets, each of which can point either up or down. The Ising model is a way to describe how these magnets interact with each other and how they behave as a whole.
+$$\text{SIS}(n, m, q, B): \text{ Given } A \in_R \mathbb{Z}_q^{n \times m}, \text{ find } z \in \mathbb{Z}^m \text{ s.t. } Az = 0 \pmod{q}, \text{ where } z \neq 0 \text{ and } z \in [-B, B]^m \text{ (and } B \ll q/2).$$
 
-When you have a lot of magnets, they can either align with each other (all pointing up or all pointing down) or be in a mixed state (some pointing up, some pointing down). The Ising model helps us understand how these magnets behave based on their interactions and external influences.
+* $\mathbb{Z}_q = \{0, 1, \dots, q-1\}$
+* $x \in_R S$ means $x$ is uniformly chosen from $S$.
+* All vectors are column vectors.
 
-Another analogy is to think about a classroom of students. Each student can either be happy (up) or sad (down). The Ising model helps us understand how the mood of the classroom changes based on how students interact with each other and external factors like a how much I like my friend or how much the teacher is scolding us.
+> **Example:**
+> * Let $n = 3$, $m = 5$, $q = 13$, and $B = 3$.
+> * **SIS instance:** >   $$A = \begin{pmatrix} 1 & 0 & 7 & 12 & 4 \\ 2 & 11 & 3 & 6 & 12 \\ 9 & 8 & 10 & 5 & 1 \end{pmatrix}$$
+> * We need to find nonzero $z = (z_1, z_2, z_3, z_4, z_5) \in [-3,3]^5$ with $Az \equiv 0 \pmod{13}$.
+> * Some solutions within our bound $[-3,3]^5$ are:
+>   $z_1 = \pm (3,1,-1,0,1)$
+>   $z_2 = \pm (-1,0,2,1,-2)$
 
-## Okay... so how can this solve problems?
-An Ising model is usually described by a Hamiltonian(Think of a matrix). So lets say in order to model some NP-hard problem, we have to consider $$2^n$$ possible states, where n is the number of variables in the problem. This means that in order to solve this classically, we would have to consider a dimension 2^n matrix, which is infeasible for large n.
+---
 
-However, if we can describe such a matrix as an Ising model, we can use quantum computers to solve it. By formulating the $$2^n$$ matrix as a physical system of Ising spins, and if we let the solution of the problem correspond to the lowest energy state of the system, we can use quantum annealing to find this lowest energy state. 
+## Basic Linear Algebra
 
-For exact Ising formulations of NP-hard problems you can refer to [this paper](https://arxiv.org/pdf/1302.5843).
+As a designer, one must not make "stupid" problems. 
+For example, if $n \ge m$, then one expects that $Az = 0 \pmod{q}$ has no non-trivial solutions (since it is likely full rank). Hence, we assume $n < m$.
+
+We also cannot design problems with no solutions. To ensure a solution exists, we must have sufficiently many choices of $z$.
+
+**Remark:** If $(B+1)^m > q^n$, then by the Pigeonhole Principle there must exist $z_1, z_2 \in [-B/2, B/2]^m$ such that $z_1 \neq z_2$ and $Az_1 = Az_2 \pmod{q}$. Then, $z = z_1 - z_2$ is a SIS solution. 
+
+As designers, we can construct a SIS problem as long as $m > \frac{n \log q}{\log(B+1)}$, as a solution is guaranteed to exist.
+
+## Creating a Hash Function from SIS
+
+We can use SIS to construct collision-resistant hash functions.
+1. Select $A \in_R \mathbb{Z}_q^{n \times m}$, where $m > n \log q$.
+2. Define $H_A : \{0,1\}^m \rightarrow \mathbb{Z}_q^n$ by $H_A(z) = Az \pmod q$.
+
+$H_A$ works as a compression function since $m > n \log q \implies 2^m > q^n$.
+
+**Collision Resistance:** Suppose one can efficiently find $z_1, z_2 \in \{0,1\}^m$ with $z_1 \neq z_2$ and $H_A(z_1) = H_A(z_2)$. Then $Az_1 = Az_2 \pmod{q}$, which means $Az = 0 \pmod{q}$ where $z = z_1 - z_2$. Since $z \neq 0$ and $z \in [-1,1]^m$, $z$ is a SIS solution (with $B = 1$) that has been efficiently found.
 
 ## Conclusion
-Main takeaway from this blogpost:
-Suppose you have a problem that is too much to solve classically (think of a $$2^n$$ matrix), you can try to convert it into an Ising spin model using qubits. If you can do that, you can use quantum annealing to find the solution.
+As a cryptographic scheme designer, one must always consider the properties of the underlying mathematical problems. In the case of SIS, existence is guaranteed by the pigeonhole principle, and collision resistance is tied to the hardness of finding solutions.
 
-Any QUBO (Quadratic Unconstrained Binary Optimization) problem is essentially can be converted into an Ising spin model, and thus can be solved using quantum annealing. QUBO and Ising models simply differ by a change of basis so it is a bijective (might be using this term loosely) model.
-
-If you are interested in learning more about quantum computing, I recommend checking out the [Qiskit documentation](https://qiskit.org/documentation/) and the [Qiskit textbook](https://qiskit.org/textbook/preface.html). They have a lot of resources to help you get started with quantum computing and quantum algorithms.
+Thanks for reading! (I will improve at writing blog posts one day i realised how incoherent everything reads)
