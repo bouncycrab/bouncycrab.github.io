@@ -14,4 +14,4 @@ I have been reading this paper [here](https://arxiv.org/pdf/quant-ph/9806088)
 It is a paper that describes how quantum mechanics can be used to create new types of games and strategies.
 Future literature descibes this as "EWL" framework, named after the authors of the paper, Eisert, Wilkens and Lewenstein.
 
-Instead of a classical strategy space, 
+Instead of a classical strategy space, (to be continued)
